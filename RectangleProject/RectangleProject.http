@@ -1,0 +1,13 @@
+@RectangleProject_HostAddress = http://localhost:5155
+
+POST {{RectangleProject_HostAddress}}/api/rectangle/
+Content-Type: application/json
+
+{
+  "width": 21,
+  "height": 20
+}
+
+###
+
+GET {{RectangleProject_HostAddress}}/api/rectangle/
